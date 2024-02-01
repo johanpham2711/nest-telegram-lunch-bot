@@ -14,3 +14,7 @@ export const BASE_URL = process.env.BASE_URL || 'http://localhost:8080';
 // Telegram
 export const TELEGRAM_BOT_TOKEN =
   process.env.TELEGRAM_BOT_TOKEN || 'TELEGRAM_BOT_TOKEN';
+
+// Mongo database
+export const MONGODB_URI =
+  process.env.MONGODB_URI || 'mongodb://localhost/telegram-lunch-bot';
